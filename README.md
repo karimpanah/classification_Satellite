@@ -6,7 +6,7 @@
 
 
 
-A curated collection of classification projects built with Python and PyTorch, covering both image and tabular data tasks. The projects include both **image classification** and **tabular (numerical) data classification**.
+A curated collection of classification projects built with Python and PyTorch. The projects include both **image classification**.
 
 The goal of this repository is to explore a wide range of supervised learning problems with a focus on technical accuracy, reproducibility, and clean code practices.
 
@@ -38,15 +38,15 @@ Each project is organized into its own folder and contains:
 - Result visualizations (plots, confusion matrix, sample outputs)
 
 # Clone the repository
-git clone https://github.com/karimpanah/classification.git
-cd classification
+git clone https://github.com/karimpanah/classification_Satellite.git
+cd classification_Satellite
 
 # Install dependencies
 pip install -r requirements.txt
 
 
 # Run a specific project
-cd image_classification_cats_vs_dogs
+cd project1_satellite
 python train.py
 
 
@@ -66,17 +66,6 @@ To install basic dependencies:
 
 ```bash
 pip install -r requirements.txt
-
-
-
-
-## 📂 Example Projects
-
-| Project Name     | Type    | Description                    |
-|------------------|---------|--------------------------------|
-| cats_vs_dogs     | Image   | CNN classifier for pet images |
-| customer_churn   | Tabular | Predicting customer churn     |
-
 
 
 
